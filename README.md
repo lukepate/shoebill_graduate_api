@@ -1,24 +1,16 @@
-# README
+shoebill_api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Grape API mounted on Rails for the graduates in our cohort
 
-Things you may want to cover:
+Production Host
 
-* Ruby version
+http://localhost:3000/api/v1/graduates/
 
-* System dependencies
+GET /v1/graduates
 
-* Configuration
+Returns an array with of all the students
 
-* Database creation
+GET /v1/graduates/1
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Returns an array of each student sorted by ID. 
+http://0.0.0.0:3000/api/v1/graduates/1

@@ -37,15 +37,7 @@ gem 'grape-active_model_serializers'<br>
 
 
 API file structure <br>
-app<br>
- |––controllers<br>
-       |––api<br>
-           |––base.rb<br>
-           |––v1<br>
-               |––base.rb<br>
-               |––graduates.rb<br>
-               
- -We mount the rack inside of the controller
+ -nest your base.rb and endpoints inside of a folder in your controller        
  -Grape supports versioning
  
 ENDPOINT

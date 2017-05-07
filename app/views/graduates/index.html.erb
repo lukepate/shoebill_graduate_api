@@ -1,0 +1,6 @@
+<% @graduates.each do |x| %>
+  <a href='/graduates/<%= x['id'] %>'> <%= x['first_name'] %></a><br>
+<% end %>
+
+
+<a href="http://localhost:3000/api/v1/graduates/">API</a>

@@ -25,25 +25,25 @@ http://www.ruby-grape.org/examples/
 -----------------------------------------------------
 # BUILDING 
 
-gem 'grape'
+gem 'grape'<br>
 -Grape's DSL to easily construct an API out of our Rails backend
 
-gem 'rack-cors', :require => 'rack/cors'
+gem 'rack-cors', :require => 'rack/cors'<br>
 -shares our backend resources with others using Cross Origin Resource protocol.
 -(Cross-site HTTP requests are HTTP requests for resources from a different domain than the domain of the resource making the request. - MDN)
 
-gem 'grape-active_model_serializers'
+gem 'grape-active_model_serializers'<br>
 -Serializer takes the return value of calling Graduate.all and converts it from an array of Ruby objects into valid JSON.
 
 
-API file structure 
-app
- |––controllers
-       |––api
-           |––base.rb
-           |––v1
-               |––base.rb
-               |––graduates.rb
+API file structure <br>
+app<br>
+ |––controllers<br>
+       |––api<br>
+           |––base.rb<br>
+           |––v1<br>
+               |––base.rb<br>
+               |––graduates.rb<br>
                
  -We mount the rack inside of the controller
  -Grape supports versioning

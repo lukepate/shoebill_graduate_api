@@ -13,13 +13,13 @@ Returns an array of each student sorted by ID.
 https://shoebill-api.herokuapp.com/api/v1/graduates/1
 
 # RUN
-bundle install
+bundle install<BR>
 rails s
 
 # DOCS
 https://github.com/ruby-grape/grape
 
-# EXAPMLES
+# EXAMPLES
 http://www.ruby-grape.org/examples/
 
 -----------------------------------------------------
